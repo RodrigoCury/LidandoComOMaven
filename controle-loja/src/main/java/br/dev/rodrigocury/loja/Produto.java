@@ -15,4 +15,9 @@ public class Produto {
 		this.nome = nome;
 	}
 	
+	@Override
+	public boolean equals(Object obj) {
+		Produto outroProduto = (Produto) obj;
+		return this.nome.equals(outroProduto.getNome());
+	}
 }

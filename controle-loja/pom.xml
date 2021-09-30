@@ -36,9 +36,9 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
+			<groupId>junit</groupId>     <!-- NOT org.junit here -->
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<version>4.8.2</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -46,6 +46,5 @@
 			<artifactId>xstream</artifactId>
 			<version>1.4.18</version>
 		</dependency>
-
 	</dependencies>
 </project>
